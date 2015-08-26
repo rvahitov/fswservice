@@ -1,0 +1,4 @@
+﻿This is a test message.
+
+On {{machinename}} occurred event '{{event}}' for file '{{filename}}' at {{occurred}}.
+Full file path is {{fullpath}}

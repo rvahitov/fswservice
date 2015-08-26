@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<!--This is test message template-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>FileWatchService - {Created}</title>
+    <style>
+        td.first {
+            font-weight: bold;
+            width: 30%
+        }
+        td.second {
+            width: 70%;
+        }
+        table {
+            background: black;
+            color: black;
+        }
+        td {
+            background: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="first">Machine name</td>
+            <td class="second">{MachineName}</td>
+        </tr>
+        <tr>
+            <td class="first">Event</td>
+            <td class="second">{Event}</td>
+        </tr>
+        <tr>
+            <td class="first">Occurred</td>
+            <td class="second">{Occurred}</td>
+        </tr>
+        <tr>
+            <td class="first">File name</td>
+            <td class="second">{FileName}</td>
+        </tr>
+        <tr>
+            <td class="first">Old file name</td>
+            <td class="second">{OldName}</td>
+        </tr>
+        <tr>
+            <td class="first">Full path</td>
+            <td class="second">{FullPath}</td>
+        </tr>
+        <tr>
+            <td class="first">Old full path</td>
+            <td class="second">{OldFullPath}</td>
+        </tr>
+        <tr>
+            <td class="first">Service name</td>
+            <td class="second">{ServiceName}</td>
+        </tr>
+        <tr>
+            <td class="first">Service status</td>
+            <td class="second">{ServiceStatus}</td>
+        </tr>
+        <tr>
+            <td class="first">Unknown template key</td>
+            <td class="second">{UnknownKey}</td>
+        </tr>
+    </table>
+</body>
+</html>
