@@ -13,10 +13,10 @@
     <!--Provide file name patterns-->
 
     <sendMail>
-      <server host="smtp.yandex.ru" port="25" enableSSL="true" login="varan73" password="2+2equals4!"/>
-      <message from="varan73@yandex.ru" subjectTemplate="FileWatcherService - {event}" bodyTemplatePath="messageTemplate.html" isBodyHtml="true">
-        <recipient address="rvahitov@outlook.com"/>
-        <recipient address="jokyghost@gmail.com"/>
+      <server host="smtp.yandex.ru" port="25" enableSSL="true" login="****" password="*******"/>
+      <message from="user@user.ru" subjectTemplate="FileWatcherService - {event}" bodyTemplatePath="messageTemplate.html" isBodyHtml="true">
+        <recipient address="user2@user.com"/>
+        <recipient address="user3@user.com"/>
       </message>
     </sendMail>
     
